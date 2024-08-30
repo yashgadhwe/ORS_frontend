@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.product-container {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-info {
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+.product-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.product-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.product-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+}
+
+.discount {
+    color: #d9534f;
+    margin-left: 10px;
+}
+
+.ratings {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.stars {
+    color: gold;
+}
+
+.size-container {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.size-container label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.size-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.size-tab {
+    padding: 10px 15px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    text-align: center;
+    min-width: 50px;
+    font-weight: bold;
+}
+
+.size-tab:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.size-tab.active {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+.product-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.product-buttons button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.recommended-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.recommended-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.recommended-products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: 18%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.brand-name {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.product-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.price-info {
+    font-size: 14px;
+    color: #333;
+}
+
+.price-info .original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.price-info .discount {
+    color: #d9534f;
+    margin-left: 5px;
+}
